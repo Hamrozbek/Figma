@@ -1,0 +1,38 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#E5E5E5"/>
+<g id="Home">
+<g id="Desktop - 1" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="712" transform="translate(-940 -26)" fill="white"/>
+<g id="Frame 96" filter="url(#filter0_d_0_1)">
+<g id="Frame 7">
+<g id="Frame 48095841">
+<g id="Frame 48095840">
+<g id="Frame 101">
+<g id="clarity:phone-handset-solid" clip-path="url(#clip1_0_1)">
+<path id="Vector" d="M8.45563 11.4666C9.61535 12.6431 11.0186 13.5514 12.5667 14.1278L14.6612 12.4611C14.7233 12.4183 14.7969 12.3954 14.8723 12.3954C14.9477 12.3954 15.0213 12.4183 15.0834 12.4611L18.9723 14.9666C19.1199 15.0554 19.2449 15.1773 19.3374 15.3226C19.4298 15.468 19.4872 15.6329 19.505 15.8042C19.5227 15.9756 19.5004 16.1487 19.4398 16.3099C19.3792 16.4712 19.2819 16.6161 19.1556 16.7333L17.3334 18.5333C17.0725 18.7912 16.7517 18.9804 16.3998 19.0841C16.0479 19.1878 15.6758 19.2028 15.3167 19.1278C11.7346 18.3879 8.43293 16.6553 5.78897 14.1278C3.20368 11.5751 1.41467 8.32712 0.638967 4.77776C0.562337 4.42422 0.578331 4.05689 0.685398 3.71135C0.792466 3.36582 0.986976 3.0538 1.25008 2.80553L3.13897 0.983311C3.25586 0.863192 3.3984 0.771074 3.55594 0.713854C3.71347 0.656633 3.88191 0.635793 4.04864 0.652893C4.21537 0.669994 4.37607 0.724592 4.51871 0.8126C4.66135 0.900607 4.78223 1.01974 4.8723 1.16109L7.46119 4.99998C7.50584 5.06026 7.52995 5.13329 7.52995 5.20831C7.52995 5.28333 7.50584 5.35636 7.46119 5.41664L5.75563 7.46664C6.34762 8.98383 7.26993 10.3502 8.45563 11.4666Z" fill="#333333" fill-opacity="0.7"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-970" y="-53" width="1500" height="209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="712" fill="white" transform="translate(-940 -26)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
