@@ -16,6 +16,7 @@
     font-weight: 700;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -93,7 +94,7 @@ option {
     color: white;
 }
 
-/* header-content-wrapper */
+/* header */
 
 .header-content-wrapper {
     display: flex;
@@ -185,384 +186,148 @@ option {
     vertical-align: middle;
     color: #FFFFFF;
 }
+/* hero-contact */
 
-/* hero-content-wrapper*/
-.hero-content {
-    margin: 0 auto;
+.hero-contact-wrapper{
     height: 566px;
-    background-image: url(../images/bacroundimg.png);
+    background-image: url(../images/about-bacround.png);
 }
-
-.hero-content-wrapper {
+.hero-contact{
     width: 582px;
-    height: 334px;
-    padding: 110px 0 122px;
+    height: 260px;
+    padding: 140px 0 160px;
 }
 
-.hero-content-wrapper>h2 {
-    font-family: 'Helvetica Neue', sans-serif;
+.hero-contact > h2{
+    font-family: 'Helvetica Neue',sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 16px;
 }
-
-.hero-content-wrapper>p {
-    font-family: 'Helvetica Neue', sans-serif;
+.hero-contact > p{
+    font-family: 'Helvetica Neue',sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFFCC;
-    opacity: 80%;
-    padding-top: 16px;
-    width: 490px;
-    height: 87px;
+    padding-bottom: 32px;
+    width: 476px;
 }
-
-.hero-content-wrapper>button {
-    font-family: 'Montserrat', sans-serif;
+.hero-contact > button{
+    font-family: 'Montserrat',sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    color: #FFFFFF;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: none;
+    color: #FFFFFF; 
+    padding: 15px 30px;  
+    border-radius: 8px; 
     background-color: #4762FF;
-    margin-top: 32px;
+    border: none;
     cursor: pointer;
 }
-
-.hero-content-wrapper>button:hover {
+.hero-contact > button:hover{
     background-color: #333333;
     transition: all 0.3s;
     transform: scale(1.1);
 }
+/* sefer-contact-wrapper */
 
-/* about-content */
-
-.about-content-wrapper {
-    display: flex;
-    height: 554px;
-    padding: 68px 0 76px;
-    gap: 39px;
+.sefer-contact-wrapper{
+    height: 445px;
+    text-align: center;
 }
-
-.about-content-text>h2 {
-    font-family: 'Helvetica Neue', sans-serif;
+.sefer-contact-wrapper >h2{
+    font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #333333;
-    margin-bottom: 16px;
+    padding: 64px 0 51px;
 }
-
-.about-content-text>p {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #333333CC;
-    opacity: 80%;
-}
-
-.about-content-text>button {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    background-color: #4762FF;
-    padding: 15px 48px;
-    cursor: pointer;
-    margin: 80px 2px 0 344px;
-}
-
-.about-content-text>button:hover {
-    background-color: #333333;
-    transition: all 0.3s;
-    transform: scale(1.1);
-}
-
-/* catalog */
-.catolog-contact-wrapper>h2 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #333333;
-}
-
-.catolog-contact {
+.sefer-contact-text{
     display: flex;
-    justify-content: center;
-    gap: 26px;
-    padding: 64px 0 58px;
-}
-
-.catalog-item {
-    width: 250px;
-    height: 332px;
-    box-shadow: 0 0 6px 0 #0000001A;
-    border-radius: 6px;
-}
-
-.catalog-item>img {
-    padding: 7px 6.5px;
-}
-
-.catalog-item>h3 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    color: #000000CC;
-    padding-left: 19px;
-}
-
-.catalog-item>p {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0%;
-    color: #33333399;
-    padding-left: 19px;
-}
-
-.catalog-item>p span {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0%;
-    color: #33333399;
-    opacity: 60%;
-}
-
-.catalog-item>button {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #4762FF;
-    border-radius: 8px;
-    border: none;
-    padding: 9px 61px 10px;
-    margin: 18px 19px;
-    cursor: pointer;
-}
-
-.catalog-item>button:hover {
-    background-color: #333333;
-    transition: all 0.3s;
-    transform: scale(1.1);
-}
-
-/* patient */
-
-.patient-contact-wrapper {
-    text-align: center;
-}
-
-.patient-contact {
-    width: 873px;
-    height: 200px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.patient-contact>h2 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: lowercase;
-    color: #333333;
-    margin-bottom: 10px;
-}
-
-.patient-contact>p {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #333333CC;
-    padding: 0 28px;
-    width: 860px;
-    margin: 0 auto;
-}
-
-.patient-contact-img {
-    width: 1119px;
-    height: 489px;
-    cursor: pointer;
-}
-
-
-/* partnior-contact-wrapper */
-
-.partnior-contact-wrapper{
-    text-align: center;
-    padding: 67px 0 0 ;
-}
-.partnior-contact{
-    display: flex;
+    gap: 55px;
     justify-content: space-between;
-    gap: 50px;
-    align-items: center;
-    padding: 31px 0 51px;
+}
+.sefer-contact-img{
+    width: 290px;
+    height: 169px;
+}
+.sefer-contact-img >p{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #333333CC;
+    padding-top: 51px;
 }
 
-.partnior-contact-wrapper > h2{
-    font-family: 'Helvetica Neue',sans-serif;
+/* document-contact-wrapper */
+
+.document-contact-wrapper{
+    text-align: center;
+}
+.document-contact-wrapper >h2{
+    font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
     color: #333333;
+    padding-bottom: 42px;
 }
-
-/* form-box */
-
-.from-box-wrapper{
-    height: 687px;
-    background-image: url(../images/bacround-img22.png);
-}
-.form-box{
-    width: 607px;
-    background-color: #4762FF;
-    border-radius: 6px;
-}
-.from-box-contact{
-    padding: 118px 0 90px 500px;
-}
-.form-box > h2{
-    font-family: 'Helvetica Neue',sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 20px 35px 0 36px;
-}
-
-.form-box > p{
-    font-family: 'Helvetica Neue',sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFFCC;
-    height: 42px;
-    padding: 16px 40px 25px 36px ;
-}
-.form-box > input{
-    font-family: 'Helvetica Neue',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color:#FFFFFF;
-    padding: 19px 23px;
-
-    display: flex;
-    width: 532px;
-    height: 56px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    margin: 25px 37px 23px 38px;
-    background-color: #FFFFFF1A;
-}
-
-.submit-btn{
-    font-family: 'Helvetica Neue',sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #4762FF;
-    
-    width: 532px;
-    height: 66px;
-    margin: 12px 37px 40px 38px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-.submit-btn:hover{
-    background-color: #333333;
-    transition: all 0.3s;
-    transform: scale(1.1);
-    border: 2px solid white;
-    color: white;
-}
-input::placeholder{
-    color: #FFFFFF;
+.document-contact-img{
+    padding-bottom: 74px;
 }
 
 
 /* footer */
 
-.footer-container-wrapper{
+.footer-container-wrapper {
     background-color: #1A1A1A;
     height: 354px;
 }
-.footer-button-logo{
+
+.footer-button-logo {
     padding: 0 0;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-around;
     gap: 13px;
-    padding: 50px 0 30px ;
+    padding: 50px 0 30px;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     gap: 6px;
     align-items: center;
 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
 }
-.footer-logo:hover{
+
+.footer-logo:hover {
     color: #4762FF;
 }
-.footer-strong{
-    font-family: 'Helvetica Neue' ,sans-serif;
+
+.footer-strong {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -570,18 +335,21 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.footer-strong:hover{
+
+.footer-strong:hover {
     color: #4762FF;
 }
-.footer-links{
+
+.footer-links {
     width: 285px;
 }
-.footer-sub{
+
+.footer-sub {
     margin-top: 8px;
 }
 
-.text{
-    font-family: 'Helvetica Neue',sans-serif;
+.text {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -589,12 +357,13 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.text:hover{
+
+.text:hover {
     color: #4762FF;
 }
 
-.footer-contacts-strong{
-    font-family: 'Helvetica Neue' ,sans-serif;
+.footer-contacts-strong {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -602,12 +371,13 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.footer-contacts-strong:hover{
+
+.footer-contacts-strong:hover {
     color: #4762FF;
 }
 
-.strong{
-    font-family: 'Helvetica Neue',sans-serif;
+.strong {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -615,21 +385,25 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.strong:hover{
+
+.strong:hover {
     color: #4762FF;
 }
 
-.strong-text{
+.strong-text {
     margin: 15px 0 8px;
 }
-.strong-text2{
+
+.strong-text2 {
     margin: 8px 0;
 }
-.footer-contacts{
+
+.footer-contacts {
     width: 285px;
 }
-.text-item{
-    font-family: 'Helvetica Neue' ,sans-serif;
+
+.text-item {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -637,15 +411,17 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.text-item:hover{
+
+.text-item:hover {
     color: #4762FF;
 }
-.footer-form{
+
+.footer-form {
     width: 250px;
 }
 
-.footer-form-strong{
-    font-family: 'Helvetica Neue',sans-serif;
+.footer-form-strong {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -653,11 +429,13 @@ input::placeholder{
     color: #FFFFFF;
     cursor: pointer;
 }
-.footer-form-strong:hover{
+
+.footer-form-strong:hover {
     color: #4762FF;
 }
-.input-field{
-    font-family: 'Helvetica Neue',sans-serif;
+
+.input-field {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -673,13 +451,15 @@ input::placeholder{
     margin-top: 20px;
     cursor: pointer;
 }
-.input-field:hover{
+
+.input-field:hover {
     background-color: #4762FF;
     transition: all 0.3s;
     transform: scale(1.1);
 }
-.submit-btn2{
-    font-family: 'Helvetica Neue',sans-serif;
+
+.submit-btn2 {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
@@ -696,14 +476,15 @@ input::placeholder{
     margin-top: 20px;
     cursor: pointer;
 }
-.submit-btn2:hover{
+
+.submit-btn2:hover {
     background-color: #4762FF;
     transition: all 0.3s;
     transform: scale(1.1);
 }
 
-.footer-bottom{
-    font-family: 'Helvetica Neue',sans-serif;
+.footer-bottom {
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
@@ -712,10 +493,11 @@ input::placeholder{
     margin: 18px 0 32px;
     cursor: pointer;
 }
-.footer-bottom:hover{
+
+.footer-bottom:hover {
     color: #4762FF;
 }
 
-.border-btn{
+.border-btn {
     border-bottom: 1px solid #474747;
 }
