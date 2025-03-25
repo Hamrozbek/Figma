@@ -32,6 +32,7 @@
 .top-contact-wrapper {
     display: flex;
     gap: 20px;
+    justify-content: end;
     border-bottom: 2px solid #3333331A;
 }
 
@@ -42,10 +43,7 @@
     line-height: 100%;
     letter-spacing: 0px;
     color: #333333B2;
-    width: 158px;
-    height: 19px;
-    text-align: end;
-    padding: 20px 30px 27px 720px;
+    padding: 20px 0;
 }
 
 .top-contact-contact {
@@ -53,7 +51,7 @@
     height: 20px;
     display: flex;
     align-items: center;
-    padding: 26.5px 0 26.5px;
+    padding: 26px 0;
 }
 
 .top-contact-tel {
