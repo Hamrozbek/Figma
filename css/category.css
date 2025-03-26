@@ -364,7 +364,9 @@ option {
 
 
 /* footer */
-
+input::placeholder{
+    color: #FFFFFF;
+}
 
 
 .footer-container-wrapper {

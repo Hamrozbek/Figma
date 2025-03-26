@@ -292,6 +292,9 @@ option {
 
 
 /* footer */
+input::placeholder{
+    color: #FFFFFF;
+}
 
 .footer-container-wrapper {
     background-color: #1A1A1A;
