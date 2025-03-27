@@ -222,11 +222,11 @@
 .hero-content {
   margin: 0 auto;
   height: 566px;
-  background-image: url(../images/bacroundimg.png);
+  background-image: url(../../images/servis-bacround-img.png);
 }
 
 .hero__content-wrapper {
-  width: 582px;
+  width: 522px;
   height: 334px;
   padding: 110px 0 122px;
 }
@@ -275,305 +275,34 @@
           transform: scale(1.1);
 }
 
-.about__content-wrapper {
+.service__wrapper {
+  margin-top: 25px;
+}
+
+.service__contact-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 554px;
-  padding: 68px 0 76px;
-  gap: 39px;
+  gap: 20px;
+  padding: 20px 0 20px;
+  border-bottom: 1px solid #00000099;
 }
 
-.about__h2 {
+.service__text {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #333333;
-  margin-bottom: 16px;
+  padding-bottom: 20px;
 }
 
-.about__p {
-  font-weight: 400;
+.service__item {
+  font-weight: 500;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #333333CC;
-  opacity: 80%;
-}
-
-.about__button {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #FFFFFF;
-  border: none;
-  border-radius: 8px;
-  background-color: #4762FF;
-  padding: 15px 48px;
-  cursor: pointer;
-  margin: 80px 2px 0 344px;
-}
-
-.about__button:hover {
-  background-color: #333333;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.catalog__contact-h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #333333;
-}
-
-.catalog__contact-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 26px;
-  padding: 64px 0 58px;
-}
-
-.catalog__item {
-  width: 250px;
-  height: 332px;
-  -webkit-box-shadow: 0 0 6px 0 #0000001A;
-          box-shadow: 0 0 6px 0 #0000001A;
-  border-radius: 6px;
-}
-
-.catalog__item-img {
-  padding: 7px 6.5px;
-}
-
-.catalog__item-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: #000000CC;
-  padding-left: 19px;
-}
-
-.catalog__item-p {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0%;
-  color: #33333399;
-  padding-left: 19px;
-}
-
-.catalog__span {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0%;
-  color: #33333399;
-  opacity: 60%;
-}
-
-.catalog__button {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #4762FF;
-  border-radius: 8px;
-  border: none;
-  padding: 9px 61px 10px;
-  margin: 18px 19px;
-  cursor: pointer;
-}
-
-.catalog__button:hover {
-  background-color: #333333;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-/* patient */
-.patient__contact-wrapper {
-  text-align: center;
-}
-
-.patient__contact {
-  width: 873px;
-  height: 200px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.patient__item {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  text-transform: lowercase;
-  color: #333333;
-  margin-bottom: 10px;
-}
-
-.patient__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #333333CC;
-  padding: 0 28px;
-  width: 860px;
-  margin: 0 auto;
-}
-
-.patient__contact-img {
-  width: 1119px;
-  height: 489px;
-  cursor: pointer;
-}
-
-/* partnior-contact-wrapper */
-.partnior__contact-wrapper {
-  text-align: center;
-  padding: 67px 0 0;
-}
-
-.partnior__item {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #333333;
-}
-
-.partnior__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 31px 0 51px;
-}
-
-/* form-box */
-.from__box-contact {
-  padding: 118px 0 90px 500px;
-}
-
-.from__box {
-  width: 607px;
-  background-color: #4762FF;
-  border-radius: 6px;
-}
-
-.from__item {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 20px 35px 0 36px;
-}
-
-.from__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #FFFFFFCC;
-  height: 42px;
-  padding: 16px 40px 25px 36px;
-}
-
-.from__input {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #FFFFFF;
-  padding: 19px 23px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 532px;
-  height: 56px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-  margin: 25px 37px 23px 38px;
-  background-color: #FFFFFF1A;
-}
-
-.from__input::-webkit-input-placeholder {
-  color: #FFFFFF;
-}
-
-.from__input:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-.from__input::-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-.from__input::placeholder {
-  color: #FFFFFF;
-}
-
-.from__submit-btn {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #4762FF;
-  width: 532px;
-  height: 66px;
-  margin: 12px 37px 40px 38px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.from__submit-btn:hover {
-  background-color: #333333;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: scale(1.06);
-          transform: scale(1.06);
-  border: 2px solid white;
-  color: white;
-}
-
-.from-box-wrapper {
-  height: 687px;
-  background-image: url(../images/bacround-img22.png);
 }
 
 .footer__contact {
@@ -790,4 +519,4 @@
   background-color: #1A1A1A;
   height: 354px;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=service.css.map */

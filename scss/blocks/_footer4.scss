@@ -1,0 +1,191 @@
+.footer {
+    &__contact {
+        display: flex;
+        justify-content: space-around;
+        gap: 13px;
+        padding: 50px 0 30px;
+    }
+
+    &__logo {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+    }
+
+    &__logo:hover {
+        @include TextcolorHover();
+    }
+
+    &__strong {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__strong:hover {
+        @include TextcolorHover();
+    }
+
+    &__links {
+        width: 285px;
+    }
+
+    &__sub {
+        margin-top: 8px;
+    }
+
+    &__item-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__item-text:hover {
+        @include TextcolorHover();
+    }
+
+    &__contacts-strong {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__contacts-strong:hover {
+        @include TextcolorHover();
+    }
+
+    &__strong {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__strong-text {
+        margin: 15px 0 8px;
+    }
+
+    &__strong-text2 {
+        margin: 8px 0;
+    }
+
+    &__contacts {
+        width: 285px;
+    }
+
+    &__text-item {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__text-item:hover {
+        @include TextcolorHover();
+    }
+
+    &__form {
+        width: 250px;
+    }
+
+    &__form-strong {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__form-strong:hover {
+        @include TextcolorHover();
+    }
+
+    &__input-field {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+
+        width: 263px;
+        padding: 19px 11px 18px 12px;
+        border-radius: 8px;
+        border: 1.5px solid #FFFFFF;
+        outline: none;
+        background-color: #1A1A1A;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    &__input-field::placeholder {
+        color: #FFFFFF;
+    }
+
+    &__input-field:hover {
+        @include InputHover();
+    }
+
+    &__submit-btn2 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FFFFFF;
+
+        width: 263px;
+        padding: 17px 83px;
+        border-radius: 8px;
+        border: 1.5px solid #FFFFFF;
+        outline: none;
+        background-color: #FFFFFF1A;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    &__submit-btn2:hover {
+        @include InputHover();
+    }
+
+    &__button {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #D9DBE1;
+        margin: 18px 0 32px;
+        cursor: pointer;
+    }
+
+    &__button:hover {
+        @include TextcolorHover();
+    }
+
+    &__border-btn {
+        border-bottom: 1px solid #474747;
+    }
+}
+
+.footer-contact-wrapper {
+    background-color: #1A1A1A;
+    height: 354px;
+}

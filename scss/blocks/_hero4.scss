@@ -1,0 +1,55 @@
+.hero-content {
+    margin: 0 auto;
+    height: 566px;
+    background-image: url(../../images/servis-bacround-img.png);
+  }
+  
+  .hero {
+  
+    &__content-wrapper {
+      width: 522px;
+      height: 334px;
+      padding: 110px 0 122px;
+    }
+  
+    &__item {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+  
+    &__text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #FFFFFFCC;
+      opacity: 80%;
+      padding-top: 16px;
+      width: 490px;
+      height: 87px;
+    }
+  
+    &__submit {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 15px 30px;
+      border-radius: 8px;
+      border: none;
+      background-color: #4762FF;
+      margin-top: 32px;
+      cursor: pointer;
+    }
+  
+    &__submit:hover {
+      @include BtnHover();
+    }
+  
+  }
