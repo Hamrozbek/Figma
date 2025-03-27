@@ -1,0 +1,57 @@
+.sefer {
+    &__contact-wrapper {
+        height: 445px;
+        text-align: center;
+    }
+
+    &__contact-item {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #333333;
+        padding: 64px 0 51px;
+    }
+
+    &__contact-text {
+        display: flex;
+        gap: 55px;
+        justify-content: space-between;
+    }
+
+    &__contact-img {
+        width: 300px;
+        height: 169px;
+    }
+
+    &__contact-p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #333333CC;
+        padding-top: 51px;
+    }
+}
+
+.document {
+
+
+    &__contact-wrapper {
+        text-align: center;
+    }
+
+    &__contact-wrapper>h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #333333;
+        padding-bottom: 42px;
+    }
+
+    &__contact-img {
+        padding-bottom: 74px;
+    }
+}

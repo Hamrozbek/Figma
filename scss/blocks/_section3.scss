@@ -1,0 +1,117 @@
+.cantact-wrapper {
+    display: flex;
+}
+
+.catalog {
+
+    &__contact-cantact {
+        display: flex;
+    }
+
+    &__filter-panel {
+        width: 302px;
+        height: 427px;
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+
+    &__filter-category {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color: #000000DE;
+        padding-bottom: 5px;
+    }
+
+    &__filter-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__filter-sub {
+        border-top: 1px solid #E3E3E3;
+        border-bottom: 1px solid #E3E3E3;
+    }
+
+    &__filter-group-2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000DE;
+        padding: 18px 0;
+        border-bottom: 1px solid #E3E3E3;
+    }
+
+    &__filter-group {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000AD;
+    }
+
+    &__contact-wrapper-item {
+        width: 782px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 52px 0 48px;
+    }
+
+    &__text {
+        box-shadow: 0 0 6px 0 #0000001A;
+        border-radius: 6px;
+    }
+
+    &__text>img {
+        padding: 7px 7px 0 7px;
+    }
+
+    &__contact {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000CC;
+        padding: 0 127px 7px 19px;
+    }
+
+    &__contact-vrap {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #33333399;
+    }
+
+    &__contact-etam {
+        padding: 0 18px 14px 19px;
+    }
+
+    &__contact-vrap>span {
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #33333399;
+        opacity: 60%;
+    }
+}
+
+.catalog-contact-h2 {
+    text-align: center;
+    padding: 44px 0 52px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+}

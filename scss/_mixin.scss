@@ -1,0 +1,29 @@
+
+@mixin Texthover(){
+    color: #4762FF;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+@mixin BtnHover(){
+    background-color: #333333;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+@mixin TextcolorHover(){
+    color: #4762FF;
+}
+
+@mixin InputHover(){
+    background-color: #4762FF;
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+@mixin SubmitHover(){
+    background-color: #333333;
+    transition: all 0.3s;
+    transform: scale(1.06);
+    border: 2px solid white;
+    color: white;
+}

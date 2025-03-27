@@ -1,0 +1,51 @@
+.hero {
+
+    &__contact {
+        width: 582px;
+        height: 260px;
+        padding: 140px 0 160px;
+    }
+
+    &__contact-item {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+
+    &__contact-text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFFCC;
+        padding-bottom: 32px;
+        width: 476px;
+    }
+
+    &__contact-button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        border-radius: 8px;
+        background-color: #4762FF;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__contact-button:hover {
+        @include BtnHover();
+    }
+}
+
+.hero-contact-wrapper {
+    height: 566px;
+    background-image: url(../images/about-bacround.png);
+}
