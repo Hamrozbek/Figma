@@ -304,6 +304,174 @@
   width: 500px;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 31px;
+  margin: 100px 0 51px;
+}
+
+.contact__box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: 200px;
+  border: 2px solid #4762FF;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact__box-text {
+  width: 250px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+  padding: 67px 16px 62px;
+  margin: 0 auto;
+}
+
+.contact__text {
+  margin-top: 22px;
+}
+
+.contact__icon-circle {
+  position: absolute;
+  top: -70px;
+  width: 110px;
+  height: 110px;
+  background: white;
+  border: 2px solid #4762FF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maps__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 68px;
+}
+
+.maps__wrapper-text {
+  background-color: #4762FF;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 418px;
+}
+
+.maps__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.maps__input {
+  border: 1px solid white;
+  background-color: #4762FF;
+  width: 348px;
+  padding: 19px 14px;
+  margin: 20px 0 30px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+
+.maps__input::-webkit-input-placeholder {
+  color: white;
+}
+
+.maps__input:-ms-input-placeholder {
+  color: white;
+}
+
+.maps__input::-ms-input-placeholder {
+  color: white;
+}
+
+.maps__input::placeholder {
+  color: white;
+}
+
+.maps__button {
+  width: 348px;
+  background-color: white;
+  color: #4762FF;
+  padding: 18px 116px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0 0 20px 0;
+}
+
+.maps__button:hover {
+  background-color: #4762FF;
+  color: white;
+  border: 1px solid white;
+}
+
+.maps__text-p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.maps__phone-number {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration: underline;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.maps__small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFFCC;
+}
+
 .footer__contact {
   display: -webkit-box;
   display: -ms-flexbox;

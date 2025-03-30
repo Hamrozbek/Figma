@@ -1,12 +1,12 @@
-.contacts-wrapper{
+.contacts-wrapper {
     height: 566px;
     background-image: url(../../images/contacts.png);
 }
 
-.contacts{
+.contacts {
     padding: 191px 0 203px;
 
-    &__text{
+    &__text {
         font-weight: 700;
         font-size: 40px;
         line-height: 100%;
@@ -17,12 +17,153 @@
         padding-bottom: 16px;
     }
 
-    &__item{
+    &__item {
         font-weight: 400;
         font-size: 24px;
         line-height: 100%;
         letter-spacing: 0%;
         color: #FFFFFFCC;
         width: 500px;
+    }
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin: 100px 0 51px;
+
+
+    &__box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 200px;
+        border: 2px solid #4762FF;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    &__box-text {
+        width: 250px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #000000;
+        padding: 67px 16px 62px;
+        margin: 0 auto;
+    }
+
+    &__text {
+        margin-top: 22px;
+    }
+
+    &__icon-circle {
+        position: absolute;
+        top: -70px;
+        width: 110px;
+        height: 110px;
+        background: white;
+        border: 2px solid #4762FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.maps {
+
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        padding-bottom: 68px;
+    }
+
+    &__wrapper-text {
+        background-color: #4762FF;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 418px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__input {
+        border: 1px solid white;
+        background-color: #4762FF;
+        width: 348px;
+        padding: 19px 14px;
+        margin: 20px 0 30px;
+        border-radius: 5px;
+        outline: none;
+        color: white;
+    }
+
+    &__input::placeholder {
+        color: white;
+    }
+
+    &__button {
+        width: 348px;
+        background-color: white;
+        color: #4762FF;
+        padding: 18px 116px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s;
+        margin: 0 0 20px 0;
+    }
+
+    &__button:hover {
+        background-color: #4762FF;
+        color: white;
+        border: 1px solid white;
+    }
+
+    &__text-p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    &__phone-number {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        text-decoration: underline;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    &__small {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFFCC;
     }
 }
