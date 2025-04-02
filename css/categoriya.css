@@ -37,6 +37,13 @@
   margin: 0 auto;
 }
 
+.site-header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+}
+
 .top__contact-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,6 +114,13 @@
 .top__option {
   background-color: #4762FF;
   color: #FFFFFF;
+}
+
+.site-section {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 65px;
 }
 
 .header__content-wrapper {
@@ -233,6 +247,10 @@
   text-align: center;
   vertical-align: middle;
   color: #FFFFFF;
+}
+
+.hero {
+  margin-top: 100px;
 }
 
 .hero__contact {

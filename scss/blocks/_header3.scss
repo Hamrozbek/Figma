@@ -1,3 +1,11 @@
+.site-header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+
 .top {
     &__contact-wrapper {
         display: flex;
@@ -60,6 +68,13 @@
         background-color: #4762FF;
         color: #FFFFFF;
     }
+}
+
+.site-section {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 65px;
 }
 
 .header {
